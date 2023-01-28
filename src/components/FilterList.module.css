@@ -1,0 +1,27 @@
+.filterGroup {
+    display: flex;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.filterList {
+    width: 100%;
+}
+
+.filterBtn {
+    width: 100%;
+    height: 30px;
+    background-color: #dad5d5,;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.filterBtn:hover {
+    border: 1px black solid;
+}
+
+.active {
+    composes: filterBtn;
+    border: 1px black solid;
+}
